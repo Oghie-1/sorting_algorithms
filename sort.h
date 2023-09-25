@@ -28,4 +28,16 @@ void selection_sort(int *array, size_t size);
 /* Function to print a list */
 void print_list(const listint_t *list);
 
+/* Function to swap two integers in an array */
+void swap(int *a, int *b);
+
+/* Lomuto partititonn scheme*/
+int lomuto_partition(int *array, int low, int high, size_t size);
+
+/* Sorts an array of integers using the quicksort algorithm*/
+void quicksort(int *array, int low, int high, size_t size);
+
+/* Function that initiates the quicksort algorithm*/
+void quick_sort(int *array, size_t size);
+
 #endif /* SORT_H */
