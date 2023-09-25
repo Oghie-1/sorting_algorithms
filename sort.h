@@ -40,4 +40,6 @@ void quicksort(int *array, int low, int high, size_t size);
 /* Function that initiates the quicksort algorithm*/
 void quick_sort(int *array, size_t size);
 
+/*Function that sorts an array on integers*/
+void shell_sort(int *array, size_t size);
 #endif /* SORT_H */
