@@ -13,9 +13,6 @@ typedef struct listint_s
     struct listint_s *next;
 } listint_t;
 
-/*Swap two integers in array*/
-void swap_ints(int *a, int *b)
-
 /* Function to print an array of integers */
 void print_array(const int *array, size_t size);
 
