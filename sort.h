@@ -22,6 +22,8 @@ void bubble_sort(int *array, size_t size);
 /* Insertion sort*/
 void insertion_sort_list(listint_t **list);
 
+/* Selection Sort */
+void selection_sort(int *array, size_t size);
 
 /* Function to print a list */
 void print_list(const listint_t *list);
